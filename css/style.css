@@ -6,9 +6,12 @@
     font-family: 'Inter', sans-serif;
     line-height: 150%;
 }
+
 body {
     background-color: #0c0c16;
+    min-width: 800px;
 }
+
 nav {
     position: sticky;
     -webkit-backdrop-filter: blur(8px);
@@ -16,8 +19,8 @@ nav {
     top: 0px;
     z-index: 1;
     background-color: rgba(12, 12, 22, .7)
-
 }
+
 nav a {
     color: #ffcc74;
     text-decoration: none;
@@ -26,16 +29,16 @@ nav a {
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
 }
+
 nav ul {
     list-style: none;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 nav>ul>li {
     float: left;
-
 }
 
 nav::after {
@@ -46,12 +49,9 @@ nav::after {
 
 .logo-picture {
     width: 82px;
-    max-height: auto;
     padding: 0 10px;
-   
-    
-    
 }
+
 .about {
     color: #eae7f0;
     max-width: 800px;
@@ -60,34 +60,37 @@ nav::after {
     justify-content: center;
     align-items: center;
 }
+
 .profile-picture {
-    max-width: auto;
     max-height: 600px;
-    
 }
+
 h1 {
     color: #ffcc74;
     font-size: 50px;
     text-transform: uppercase;
     font-weight: 400;
-    
 }
+
 h2 {
     font-size: 28px;
     padding: 0 0 32px 0;
 }
+
 .about>.name-headline>p {
     font-size: 18px;
     text-align: justify;
     padding: 0 0 50px 0;
 }
-bold {
-    font-weight: 700;
 
+strong {
+    font-weight: 700;
 }
+
 .content {
     background-color: #ffcc74;
 }
+
 .content-box {
     max-width: 800px;
 	margin: 0px auto;
@@ -99,11 +102,11 @@ bold {
     font-size: 22px;
     text-align: justify;
 }
+
 .paraghraph-left {
     padding: 40px 20px 40px 0;
-    
-
 }
+
 .paraghraph-right {
     padding: 40px 0px 40px 0;
     font-size: 80px;
@@ -120,20 +123,23 @@ button {
     border-radius: 2px;
     font-size: 22px;
     font-weight: 600;
-
 }
+
 button:hover {
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #49a79d;
+    border-radius: 2px;
     color: #49a79d;
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
 }
+
 nav a:hover {
     border-bottom: 2px solid #ffcc74;
     transition: all 0.3s ease-in-out;
 }
+
 footer {
     background-color: #ffcc74;
     font-weight: 300;
@@ -141,6 +147,7 @@ footer {
     text-align: center;
     padding: 40px;
 }
+
 footer>p {
     border: 3px solid #0c0c16;
     display: inline-block;
