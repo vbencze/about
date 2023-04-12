@@ -28,6 +28,7 @@ nav a {
     margin: 40px 10px;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
 }
 
 nav ul {
@@ -123,6 +124,7 @@ button {
     border-radius: 2px;
     font-size: 22px;
     font-weight: 600;
+    transition: all 0.5s ease-in-out;
 }
 
 button:hover {
@@ -132,12 +134,12 @@ button:hover {
     border-radius: 2px;
     color: #49a79d;
     transform: scale(1.1);
-    transition: all 0.5s ease-in-out;
+    
 }
 
 nav a:hover {
     border-bottom: 2px solid #ffcc74;
-    transition: all 0.3s ease-in-out;
+    
 }
 
 footer {
